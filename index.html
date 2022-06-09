@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clipper Teas || Home</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header class="header">
+      <!-- Navigation -->
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+      >
+        <!-- "sr-only" hides the word "Menu" and displays the word on screen readers for accessibility -->
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <ul id="primary-nav" data-visible="false" class="nav">
+        <li><a href="index.html" aria-hidden="true">Home</a></li>
+        <li><a href="#" aria-hidden="true">New Arrivals</a></li>
+        <li><a href="#" aria-hidden="true">Brewing</a></li>
+        <li><a href="#" aria-hidden="true">Teaware</a></li>
+        <li><a href="#" aria-hidden="true">About</a></li>
+      </ul>
+      <!-- END of Navigation -->
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <div class="container">
+          <img src="../img/africaOpt.jpg" />
+        </div>
+
+        <div class="container">
+          <img src="../img/china.jpg" />
+        </div>
+
+        <div class="container">
+          <img src="../img/india.jpg" />
+        </div>
+      </div>
+
+      <!-- Back and forward buttons -->
+      <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="banner">
+        <h2>Your home for</h2>
+        <h1>
+          The World's<br />
+          finest tea
+        </h1>
+        <a href="skills.html" class="btn banner-btn"> explore</a>
+      </div>
+    </header>
+    <!-- END of Header -->
+    <div class="content-divider"></div>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <!-- Single Skill -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-mug-hot"></i>
+        </span>
+        <h4 class="skill-title">crafted around the world</h4>
+        <p class="skill-text">
+          Produced in the finest estates from India, China, Formosa, and Africa
+        </p>
+      </article>
+      <!-- END of Single Skill -->
+
+      <!-- Single Skill -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-glass-cheers"></i>
+        </span>
+        <h4 class="skill-title">relaxation</h4>
+        <p class="skill-text">
+          Relax with a malty assam, fruity darjeeling, fine Formosa Oolong, or
+          Golden Monkey
+        </p>
+      </article>
+      <!-- END of Single Skill -->
+
+      <!-- Single Skill -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-bomb"></i>
+        </span>
+        <h4 class="skill-title">energy</h4>
+        <p class="skill-text">
+          Try any of our fine energizing teas for a quick pick-me-up in the
+          morning.
+        </p>
+      </article>
+      <!-- END of Single Skill -->
+
+      <!-- Single Skill -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-mortar-pestle"></i>
+        </span>
+        <h4 class="skill-title">responsible</h4>
+        <p class="skill-text">
+          We only purchase from tea estates that comply with responsible
+          practices.
+        </p>
+      </article>
+      <!-- END of Single Skill -->
+    </section>
+    <!-- END of Skills Section -->
+
+    <!-- About Section -->
+    <div class="section-center">
+      <article class="about-img">
+        <div class="about-picture-container">
+          <img
+            src="img/about-bcg.jpeg"
+            alt="tea kettle"
+            class="about-picture"
+          />
+        </div>
+      </article>
+      <!-- About Info -->
+      <article class="about-info">
+        <!-- Section Title -->
+        <div class="section-title">
+          <h3>About</h3>
+          <h2>Clipper Teas</h2>
+        </div>
+        <!-- END of Section Title -->
+        <p class="about-text">
+          Our teas harken back to the days of the great tea races, and to a time
+          when connoisseurs waited in great anticipation for the arrival of
+          clipper ships carrying their favorite teas from far away lands.
+        </p>
+        <a href="about.html" class="btn">Learn More</a>
+      </article>
+    </div>
+    <!-- END of About Section -->
+
+    <!-- Cards Section -->
+    <section class="cards">
+      <!-- Single Card -->
+      <article class="card-1">
+        <h4 class="card-title"><a href="india.html">Teas from India</a></h4>
+        <p class="card-text">Assam, Darjeeling</p>
+      </article>
+      <!-- END of Single Card -->
+
+      <!-- Single Card -->
+      <article class="card-2">
+        <h4 class="card-title">Teas from China</h4>
+        <p class="card-text">Keemun, Yunnan, Golden Monkey, Lapsang Souchong</p>
+      </article>
+      <!-- END of Single Card -->
+
+      <!-- Single Card -->
+      <article class="card-3">
+        <h4 class="card-title">Teas from Formosa</h4>
+        <p class="card-text">Formosa Oolongs</p>
+      </article>
+      <!-- END of Single Card -->
+
+      <!-- Single Card -->
+      <article class="card-4">
+        <h4 class="card-title">Teas from Africa</h4>
+        <p class="card-text">
+          Tanzania Luponde, South Africa Ntingwe Kwazul, Kenya Ajiri
+        </p>
+      </article>
+      <!-- END of Single Card -->
+    </section>
+    <!-- END of Cards Section -->
+
+    <!-- Contact Form -->
+    <section class="contact">
+      <!-- Contact Info -->
+      <article class="contact-info">
+        <!-- Contact Item -->
+        <div class="contact-item">
+          <h4 class="contact-title">
+            <span class="contact-icon">
+              <i class="fas fa-location-arrow"></i>
+            </span>
+            address
+          </h4>
+          <h4 class="contact-text">
+            123 N Main Street<br />
+            Boston MA 00000
+          </h4>
+        </div>
+        <!-- END Contact Item -->
+
+        <!-- Contact Item -->
+        <div class="contact-item">
+          <h4 class="contact-title">
+            <span class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            email
+          </h4>
+          <h4 class="contact-text">email@email.com</h4>
+        </div>
+        <!-- END Contact Item -->
+
+        <!-- Contact Item -->
+        <div class="contact-item">
+          <h4 class="contact-title">
+            <span class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </span>
+            telephone
+          </h4>
+          <h4 class="contact-text">+ 222.333.4444</h4>
+        </div>
+        <!-- END Contact Item -->
+      </article>
+
+      <!-- Contact Form -->
+      <article class="contact-form">
+        <h3>Contact Us</h3>
+        <form action="">
+          <div class="form-group">
+            <!-- Inputs -->
+            <input
+              type="text"
+              placeholder="name"
+              class="form-control"
+              name="name"
+            /><br />
+
+            <input
+              type="email"
+              placeholder="email"
+              class="form-control"
+              name="email"
+            /><br />
+
+            <textarea
+              name="message"
+              placeholder="message"
+              class="form-control"
+              rows="5"
+            ></textarea>
+          </div>
+          <!-- Button -->
+          <button type="submit" class="submit-btn btn">Submit</button>
+        </form>
+      </article>
+    </section>
+    <!-- END of Contact Form -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- <div class="footer-contact">
+        <h2 class="footer-logo">Clipper Teas</h2>
+        <h4 class="footer-contact-info">123 N Main Street</h4>
+        <h4 class="footer-contact-info">Boston MA 00000</h4>
+      </div> -->
+
+      <div class="footer-nav-links">
+        <ul class="nav-links-1">
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Tea Info</a></li>
+        </ul>
+
+        <ul class="nav-links-2">
+          <li><a href="#">Brewing Tea</a></li>
+          <li><a href="#">Tea Resources</a></li>
+          <li><a href="#">Tea History</a></li>
+          <li><a href="#">Making Tea</a></li>
+          <li><a href="#">Tea Estates</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- END of Footer -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
