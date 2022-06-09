@@ -183,7 +183,7 @@ p {
 .header {
   height: 100vh;
   background: linear-gradient(rgba(10, 7, 0, 0.9), rgba(8, 6, 0, 0.9)),
-    url('../img/teaLeaves.jpg') center/cover no-repeat;
+    url('./img/teaLeaves.jpg') center/cover no-repeat;
   position: relative;
   overflow-x: hidden; /* Animation */
 }
@@ -334,22 +334,22 @@ p {
 
 .card-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/india.jpg') center/cover no-repeat;
+    url('./img/india.jpg') center/cover no-repeat;
 }
 
 .card-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/china.jpg') center/cover no-repeat;
+    url('./img/china.jpg') center/cover no-repeat;
 }
 
 .card-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/teaLeaves.jpg') center/cover no-repeat;
+    url('./img/teaLeaves.jpg') center/cover no-repeat;
 }
 
 .card-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/africa.jpg') center/cover no-repeat;
+    url('./img/africa.jpg') center/cover no-repeat;
 }
 
 .card-title h4,
@@ -368,22 +368,22 @@ p {
 
 .india-card-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/india2_assam.jpg') center/cover no-repeat;
+    url('./img/india2_assam.jpg') center/cover no-repeat;
 }
 
 .india-card-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/india.jpg') center/cover no-repeat;
+    url('./img/india.jpg') center/cover no-repeat;
 }
 
 .india-card-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/india3.jpg') center/cover no-repeat;
+    url('./img/india3.jpg') center/cover no-repeat;
 }
 
 .india-card-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/india4.jpg') center/cover no-repeat;
+    url('./img/india4.jpg') center/cover no-repeat;
 }
 
 .india-card-1:hover,
