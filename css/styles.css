@@ -164,7 +164,7 @@ p {
 }
 
 .nav a {
-  font-size: 1.15rem;
+  font-size: 1rem;
   text-transform: uppercase;
   color: var(--clr-white);
   margin-left: 5rem;
