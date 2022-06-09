@@ -183,7 +183,7 @@ p {
 .header {
   height: 100vh;
   background: linear-gradient(rgba(10, 7, 0, 0.9), rgba(8, 6, 0, 0.9)),
-    url('img/teaLeaves.jpg') center/cover no-repeat;
+    url('../img/teaLeaves.jpg') center/cover no-repeat;
   position: relative;
   overflow-x: hidden; /* Animation */
 }
