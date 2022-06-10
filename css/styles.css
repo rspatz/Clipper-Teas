@@ -344,12 +344,12 @@ p {
 
 .card-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('./img/teaLeaves.jpg') center/cover no-repeat;
+    url('../img/teaLeaves.jpg') center/cover no-repeat;
 }
 
 .card-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('./img/africa.jpg') center/cover no-repeat;
+    url('../img/africa.jpg') center/cover no-repeat;
 }
 
 .card-title h4,
