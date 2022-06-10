@@ -640,7 +640,7 @@ p {
     width: 1.5rem;
     height: 1.5rem;
     z-index: 9999;
-    background-image: url(../fontawesome-free-5.12.1-class="fa-solid fa-burger");
+    background-image: url(../fontawesome-free-5.12.1-web/svgs/solid/hamburger.svg);
     background-repeat: no-repeat;
     color: red;
     background-color: white;
