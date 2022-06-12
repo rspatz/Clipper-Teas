@@ -684,9 +684,6 @@ p {
   }
 }
 
-@media screen and (max-width: 30em) {
-  /* Responsive Version: Refactor this code when you push the project to GitHub, and create a separate style sheet for the mobile versions. */
-
   @media screen and (max-width: 30em) {
     header {
       max-height: 70vh;
@@ -710,6 +707,11 @@ p {
     width: 90%;
     margin: 5rem 2rem 5rem 2rem;
   }
+
+.tea-list {
+  width: 100%;
+  margin: 1rem;
+}
   
   .description {
   font-size: 1.15rem;
