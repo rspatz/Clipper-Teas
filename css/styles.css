@@ -156,7 +156,7 @@ p {
 /* Navigtion */
 .nav {
   display: flex;
-  margin: 3rem 0 0 15rem;
+  margin: 3rem 0 0 25rem;
 }
 
 .nav li {
@@ -164,7 +164,7 @@ p {
 }
 
 .nav a {
-  font-size: 1rem;
+  font-size: 1.15rem;
   text-transform: uppercase;
   color: var(--clr-white);
   margin-left: 5rem;
@@ -273,7 +273,7 @@ p {
   height: 16rem;
   width: 20%;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 1rem;
 }
 
 .skill {
@@ -282,7 +282,7 @@ p {
 }
 
 .skill-icon {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1.25rem;
   transition: var(--transition);
   color: var(--clr-primary);
@@ -684,74 +684,75 @@ p {
   }
 }
 
-  @media screen and (max-width: 30em) {
-    header {
-      max-height: 70vh;
-    }
+/* @media screen and (max-width: 30em) { */
+/* Responsive Version: Refactor this code when you push the project to GitHub, and create a separate style sheet for the mobile versions. */
 
-    .slideshow-container {
-      width: 100%;
-    }
-
-    .container {
-      width: 100%;
-    }
+@media screen and (max-width: 30em) {
+  header {
+    max-height: 70vh;
   }
 
-  .back,
-  .forward {
-    display: none;
+  .slideshow-container {
+    width: 100%;
   }
 
-  .skill {
-    flex-direction: column;
-    width: 90%;
-    margin: 5rem 2rem 5rem 2rem;
+  .container {
+    width: 100%;
   }
+}
+
+.back,
+.forward {
+  display: none;
+}
+
+.skill {
+  width: 90%;
+  margin: 5rem 2rem 5rem 2rem;
+}
 
 .tea-list {
-  width: 100%;
-  margin: 1rem;
-}
-  
-  .description {
-  font-size: 1.15rem;
   width: 90%;
+  margin: 1rem;
+  padding: 0;
 }
 
-  /* Form */
-  .contact {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    background: var(--clr-grey-10);
-  }
+.description {
+  width: 100%;
+}
 
-  .contact-info {
-    width: 100%;
-    margin: 0;
-    padding: 2rem 4rem;
-  }
+/* Form */
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: var(--clr-grey-10);
+}
 
-  .contact-form {
-    flex-direction: column;
-    width: 100%;
-    background-color: var(--clr-white);
-    margin: 0;
-    padding: 0;
-    border-radius: 10px;
-  }
+.contact-info {
+  width: 100%;
+  margin: 0;
+  padding: 2rem 4rem;
+}
 
-  .form-control {
-    width: 90%;
-    margin: 1rem 1.5rem;
-    padding: 0.5rem;
-    margin-top: 1rem;
-    background: var(--clr-grey-10);
-    border: none;
-    text-transform: uppercase;
-    color: var(--clr-grey-1);
-  }
+.contact-form {
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--clr-white);
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.form-control {
+  width: 90%;
+  margin: 1rem 1.5rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background: var(--clr-grey-10);
+  border: none;
+  text-transform: uppercase;
+  color: var(--clr-grey-1);
 }
 
 @media screen and (max-width: 575px) {
