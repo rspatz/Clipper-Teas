@@ -601,6 +601,58 @@ p {
 
 /* Media Queries */
 @media (max-width: 30em) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+
+  p {
+    font-size: 1rem;
+    color: var(--clr-grey-5);
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .skill {
+    width: 70%;
+    margin: 0 4rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .card {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+  }
+
   .nav {
     position: fixed;
     width: 70%;
@@ -617,6 +669,18 @@ p {
 
     transform: translateX(100%);
     transition: transform 350ms ease-out;
+  }
+
+  header {
+    max-height: 70vh;
+  }
+
+  .slideshow-container {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
   }
 
   .nav[data-visible='true'] {
@@ -655,52 +719,6 @@ p {
   }
 }
 
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 4rem;
-  }
-
-  h2 {
-    font-size: 2.5rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  h4 {
-    font-size: 1rem;
-  }
-
-  body {
-    font-size: 1rem;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4 {
-    line-height: 1;
-  }
-}
-
-/* @media screen and (max-width: 30em) { */
-/* Responsive Version: Refactor this code when you push the project to GitHub, and create a separate style sheet for the mobile versions. */
-
-@media screen and (max-width: 30em) {
-  header {
-    max-height: 70vh;
-  }
-
-  .slideshow-container {
-    width: 100%;
-  }
-
-  .container {
-    width: 100%;
-  }
-}
-
 .back,
 .forward {
   display: none;
@@ -708,7 +726,7 @@ p {
 
 .skill {
   width: 90%;
-  margin: 5rem 2rem 5rem 2rem;
+  margin: 1rem;
 }
 
 .tea-list {
@@ -753,51 +771,4 @@ p {
   border: none;
   text-transform: uppercase;
   color: var(--clr-grey-1);
-}
-
-@media screen and (max-width: 575px) {
-  p {
-    font-size: 1rem;
-    color: var(--clr-grey-5);
-  }
-
-  .skills {
-    flex-direction: column;
-  }
-
-  .skill {
-    width: 70%;
-    margin: 0 4rem;
-  }
-
-  .cards {
-    flex-direction: column;
-    width: 95%;
-  }
-
-  .card {
-    width: 70%;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-    padding: 4rem 1rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .skill {
-    width: 25%;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .section-center {
-    display: flex;
-    justify-content: space-around;
-  }
 }
