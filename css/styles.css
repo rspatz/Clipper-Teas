@@ -284,6 +284,7 @@ p {
 /* About Section */
 .section-center {
   display: flex;
+  justify-content: space-around;
   padding: 4rem 0;
   width: 85vw;
   margin: 0 auto;
