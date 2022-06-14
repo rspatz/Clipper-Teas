@@ -125,6 +125,11 @@
   width: 90%;
   margin: 1rem;
 }
+  
+/*  About Section  */
+.section-center {
+  flex-direction: column;
+}
 
 .tea-list {
   width: 90%;
@@ -159,14 +164,14 @@
   border-radius: 10px;
 }
 
-.form-control {
-  width: 90%;
-  margin: 1rem 1.5rem;
-  padding: 0.5rem;
-  margin-top: 1rem;
-  background: var(--clr-grey-10);
-  border: none;
-  text-transform: uppercase;
-  color: var(--clr-grey-1);
-}
+  .form-control {
+    width: 90%;
+    margin: 1rem 1.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background: var(--clr-grey-10);
+    border: none;
+    text-transform: uppercase;
+    color: var(--clr-grey-1);
+  }
 }
