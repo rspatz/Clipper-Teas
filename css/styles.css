@@ -288,6 +288,33 @@ p {
   color: var(--clr-primary);
 }
 
+/* About Section */
+.about-img,
+.about-info {
+  padding: 2rem 0;
+}
+
+.about-picture-container {
+  background: var(--clr-primary);
+  border: 0.5rem solid var(--clr-primary);
+  max-width: 30rem;
+  overflow: hidden;
+}
+
+.about-picture {
+  transition: var(--transition);
+}
+
+.about-picture-container:hover .about-picture {
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+
+.about-text {
+  max-width: 25rem;
+  color: var(--clr-grey-5);
+}
+
 /* Section 3: Cards Section */
 .cards {
   display: flex;
@@ -571,32 +598,3 @@ p {
   color: var(--clr-primary-light);
   transition: var(--transition);
 }
-
-/* About Section */
-.about-img,
-.about-info {
-  padding: 2rem 0;
-}
-
-.about-picture-container {
-  background: var(--clr-primary);
-  border: 0.5rem solid var(--clr-primary);
-  max-width: 30rem;
-  overflow: hidden;
-}
-
-.about-picture {
-  transition: var(--transition);
-}
-
-.about-picture-container:hover .about-picture {
-  opacity: 0.5;
-  transform: scale(1.2);
-}
-
-.about-text {
-  max-width: 25rem;
-  color: var(--clr-grey-5);
-}
-
-
